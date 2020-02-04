@@ -1,59 +1,47 @@
-# **{ Project Title }**
+# **Ecosphere Sentinel**
 
-**{ Paragraph description with proper punctuation. }**
-
-**!{ Non project assets should be kept in 'res/repo'. }**
-
-**!{ Include a project icon|banner if present. }**
-![project logo|banner](res/repo/banner-crown.png "{ Logo description }")
+![project logo|banner](res/repo/banner-ecosphere-sentinel-green.png "banner-ecosphere-sentinel-green")
 
 
 ## Getting Started
 
-**{ List steps required to download and configure all libraries to develop on the project... *step by step*! }**
-
-
 ### Installing
 
-**{ Step }**
+**Step 1** Make sure you have Go version 1.3 installed.
+
+**Step 2** Clone the repository & cd into it
 
 ```
->$ commands...
-```
-
-**{ Next step }**
-
-```
->$ commands
+>$ git clone git@github.com:TKUCSC/ecosphere-sentinel.git
 ```
 
 ### Compiling
 
-**{ Step }**
+**Step 1** Run the build script
 
 ```
->$ commands...
+>$ ./build.sh build
 ```
 
 ### Running
 
-**{ Step }**
+**Step 1**
 
 ```
->$ commands...
+>$ ./build.sh run
 ```
 
 ### Testing
 
-**{ Step }**
+**TODO: Testing**
 
 ```
->$ commands...
+>$ TODO
 ```
 
 ## Deploying
 
-**{ Additional steps required to deploy the project into production. }**
+**TODO: Deploying**
 
 ## Documentation
 
@@ -61,8 +49,8 @@ Software specifications & design documents can be found in the [wiki](/wiki).
 
 ## See Also
 
-- **{ Title } - { link to relevant software/guide/doumentation }**
-- **{ Title } - { link to relevant software/guide/doumentation }**
+- **Wiki - https://github.com/TKUCSC/ecosphere-sentinel/wiki**
+- **Ecosphere Node - https://github.com/TKUCSC/ecosphere-node**
 
 ## Contributing
 
