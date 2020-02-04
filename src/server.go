@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/TKUCSC/ecosphere-node/src/config"
-	"github.com/TKUCSC/ecosphere-node/src/controller"
+	"github.com/TKUCSC/ecosphere-sentinel/src/config"
+	"github.com/TKUCSC/ecosphere-sentinel/src/controller"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

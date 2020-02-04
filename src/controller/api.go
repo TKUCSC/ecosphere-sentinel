@@ -2,7 +2,7 @@
 package controller
 
 import (
-	"github.com/TKUCSC/ecosphere-node/src/controller/api"
+	"github.com/TKUCSC/ecosphere-sentinel/src/controller/api"
 	"github.com/labstack/echo/v4"
 )
 
