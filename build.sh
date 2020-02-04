@@ -1,10 +1,12 @@
 #!/bin/bash
 
+OUT="Sentinel"
+
 if [[ $1 = "run" ]]
 then
 	echo "running..."
 
-	./dist/node
+	./dist/$OUT
 
 	echo "done..."
 elif [[ $1 = "build" ]]
@@ -13,7 +15,7 @@ then
 
 	[ -e "./dist" ] && rm -rf ./dist
 	cd src
-	go build -o ../dist/node
+	go build -o ../dist/$OUT
 
 	echo "done..."
 else
